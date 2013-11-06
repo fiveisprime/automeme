@@ -1,7 +1,7 @@
 AutoMeme
 ========
 
-Module for working with the automeme API.
+Module for working with the [automeme](http://api.automeme.net) API.
 
 [![NPM](https://nodei.co/npm/automeme.png)](https://nodei.co/npm/automeme/)
 

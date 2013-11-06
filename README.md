@@ -1,7 +1,7 @@
 automeme
 ========
 
-Module for working with the automate API.
+Module for working with the automeme API.
 
 # Usage
 

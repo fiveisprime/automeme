@@ -1,7 +1,9 @@
-automeme
+AutoMeme
 ========
 
 Module for working with the automeme API.
+
+[![NPM](https://nodei.co/npm/automeme.png)](https://nodei.co/npm/automeme/)
 
 # Usage
 

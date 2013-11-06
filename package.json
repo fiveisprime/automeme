@@ -1,0 +1,31 @@
+{
+  "name": "automeme",
+  "version": "0.0.0",
+  "description": "An automeme API wrapper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fiveisprime/automeme.git"
+  },
+  "keywords": [
+    "automeme",
+    "meme",
+    "api"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveisprime/automeme/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0",
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "jshint": "~2.3.0",
+    "jasmine-node": "~1.11.0"
+  }
+}

@@ -19,7 +19,7 @@ Count can be anywhere from 1 to 80; defaults to 1.
 
 ---
 
-Get a single text meme in text format:
+Get a single meme in text format:
 
 ```js
 var automeme = require('automeme');

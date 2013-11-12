@@ -1,4 +1,4 @@
-AutoMeme
+AutoMeme [![Build Status](https://travis-ci.org/fiveisprime/automeme.png?branch=master)](https://travis-ci.org/fiveisprime/automeme)
 ========
 
 Module for working with the [automeme](http://api.automeme.net) API.

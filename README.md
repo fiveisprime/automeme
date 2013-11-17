@@ -24,6 +24,17 @@ Get a single meme in text format:
 ```js
 var automeme = require('automeme');
 
+automeme.getMeme(function(err, meme) {
+  if (err) return console.error(err);
+  console.log(meme);
+});
+```
+
+OR
+
+```js
+var automeme = require('automeme');
+
 automeme.getMeme()
   .then(console.log)
   .fail(console.error);
@@ -34,12 +45,34 @@ Get your meme in HTML format:
 ```js
 var automeme = require('automeme');
 
+automeme.getMeme('html', 1, function(err, meme) {
+  if (err) return console.error(err);
+  console.log(meme);
+});
+```
+
+OR
+
+```js
+var automeme = require('automeme');
+
 automeme.getMeme('html')
   .then(console.log)
   .fail(console.error);
 ```
 
 Get a bunch of memes in a JSON array:
+
+```js
+var automeme = require('automeme');
+
+automeme.getMeme('html.json', 50, function(err, meme) {
+  if (err) return console.error(err);
+  console.log(meme);
+});
+```
+
+OR
 
 ```js
 var automeme = require('automeme');

@@ -10,5 +10,13 @@ describe('automeme', function() {
       expect(promise.then).toBeDefined();
       expect(promise.fail).toBeDefined();
     });
+
+    it('should also work with a callback', function(done) {
+      automeme.getMeme(function(err, data) {
+        expect(data).toBeDefined();
+        done();
+      });
+    });
+
   });
 });

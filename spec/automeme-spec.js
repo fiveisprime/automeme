@@ -1,4 +1,5 @@
-var automeme = require('../');
+var automeme = require('../')
+  , nock = require('nock');
 
 describe('automeme', function() {
 
@@ -7,13 +8,19 @@ describe('automeme', function() {
     it('should return a promise', function() {
       var promise = automeme.getMeme();
 
-      expect(promise.then).toBeDefined();
-      expect(promise.fail).toBeDefined();
+      promise.then.should.exist;
+      promise.fail.should.exist;
     });
 
     it('should also work with a callback', function(done) {
+      nock('http://api.automeme.net')
+        .get('/text?lines=1')
+        .reply(200, 'test');
+
       automeme.getMeme(function(err, data) {
-        expect(data).toBeDefined();
+        data.should.exist;
+        data.should.equal('test');
+
         done();
       });
     });

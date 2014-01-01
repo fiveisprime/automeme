@@ -82,6 +82,11 @@ automeme.getMeme('html.json', 50)
   .fail(console.error);
 ```
 
+# Tests
+
+Run the unit tests using `make test` or `npm test`. Generate a coverage report
+by running `make coverage`.
+
 # License
 
 The MIT License (MIT)

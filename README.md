@@ -85,7 +85,7 @@ automeme.getMeme('html.json', 50)
 # Tests
 
 Run the unit tests using `make test` or `npm test`. Generate a coverage report
-by running `make coverage`.
+by running `make coverage` - this requires that you install `istanbul` globally.
 
 # License
 

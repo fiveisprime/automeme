@@ -1,6 +1,8 @@
 var automeme = require('../')
   , nock = require('nock');
 
+require('should');
+
 describe('#getMeme default', function() {
 
   it('should return a promise', function() {

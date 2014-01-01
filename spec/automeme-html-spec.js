@@ -1,6 +1,8 @@
 var automeme = require('../')
   , nock = require('nock');
 
+require('should');
+
 describe('#getMeme html', function() {
 
   describe('without count', function() {

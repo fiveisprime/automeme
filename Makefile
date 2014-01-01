@@ -1,4 +1,4 @@
-SRC = index.js lib/automeme.js spec/automeme-spec.js
+SRC = index.js lib/automeme.js $(wildcard spec/*.js)
 
 test: $(SRC)
 	@node node_modules/.bin/jshint $^ \

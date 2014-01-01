@@ -25,4 +25,16 @@ describe('#getMeme default', function() {
     });
   });
 
+  it('should fail with invalid response', function(done) {
+    nock('http://api.automeme.net')
+      .get('/text?lines=1')
+      .reply(500);
+
+    automeme.getMeme(function(err) {
+      err.should.exist;
+
+      done();
+    });
+  });
+
 });

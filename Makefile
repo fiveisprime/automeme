@@ -7,3 +7,8 @@ test: $(SRC)
 	--require should \
 	--reporter spec \
 	spec
+
+coverage:
+	@istanbul cover node_modules/.bin/_mocha -R spec
+
+.PHONY: coverage

@@ -1,9 +1,7 @@
-AutoMeme [![Build Status](https://travis-ci.org/fiveisprime/automeme.png?branch=master)](https://travis-ci.org/fiveisprime/automeme)
+AutoMeme [![Build Status](https://travis-ci.org/fiveisprime/automeme.svg?branch=master)](https://travis-ci.org/fiveisprime/automeme) [![NPM version](https://badge.fury.io/js/automeme.svg)](http://badge.fury.io/js/automeme)
 ========
 
 Module for working with the [automeme](http://api.automeme.net) API.
-
-[![NPM](https://nodei.co/npm/automeme.png)](https://nodei.co/npm/automeme/)
 
 # Usage
 

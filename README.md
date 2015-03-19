@@ -3,6 +3,8 @@ AutoMeme [![Build Status](https://travis-ci.org/fiveisprime/automeme.svg?branch=
 
 Module for working with the [automeme](http://api.automeme.net) API.
 
+* Note that automeme doesn't appear to exist anymore so this module is.. useless.*
+
 # Usage
 
 Accepts a return type and count which default to a single meme in text format.
